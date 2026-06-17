@@ -1,0 +1,24 @@
+{
+  "name": "overengineering-review",
+  "version": "0.1.0",
+  "description": "Read-only Claude Code review plugin for spotting over-engineering, unnecessary abstractions, avoidable dependencies, and code that can be simplified.",
+  "author": {
+    "name": "Local developer"
+  },
+  "homepage": "https://github.com/daaimengermengzhu/overengineering-review",
+  "repository": "https://github.com/daaimengermengzhu/overengineering-review",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "code-review",
+    "over-engineering",
+    "yagni",
+    "simplification"
+  ],
+  "commands": [
+    "./commands/"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "overengineering-review",
+  "version": "0.1.0",
+  "description": "Read-only Codex review plugin for spotting over-engineering, unnecessary abstractions, avoidable dependencies, and code that can be simplified.",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "over-engineering",
+    "yagni",
+    "simplification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Overengineering Review",
+    "shortDescription": "Review project code for unnecessary complexity.",
+    "longDescription": "Adds a read-only Codex skill that reviews a project, current diff, or selected files for over-engineering, avoidable abstractions, duplicated wrappers, unnecessary dependencies, and simpler standard-library or native alternatives.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": [
+      "Review this project for over-engineering.",
+      "Review the current diff for unnecessary complexity.",
+      "Find code we can simplify or delete."
+    ]
+  }
+}

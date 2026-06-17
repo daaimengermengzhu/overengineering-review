@@ -1,0 +1,4 @@
+interface:
+  display_name: "Overengineering Review"
+  short_description: "Review a project for unnecessary complexity."
+  default_prompt: "Review this project for over-engineering."

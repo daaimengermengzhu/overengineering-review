@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "overengineering-review-marketplace",
+  "description": "Marketplace entry for the overengineering-review plugin.",
+  "owner": {
+    "name": "Local developer"
+  },
+  "plugins": [
+    {
+      "name": "overengineering-review",
+      "description": "Read-only review plugin for spotting over-engineering, avoidable abstractions, and code that can be simplified.",
+      "author": {
+        "name": "Local developer"
+      },
+      "source": "./plugins/overengineering-review",
+      "category": "productivity"
+    }
+  ]
+}

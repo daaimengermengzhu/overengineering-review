@@ -62,7 +62,7 @@ codex plugin marketplace add https://github.com/daaimengermengzhu/overengineerin
 /overengineering-review:review src/api
 ```
 
-### Cloud 用户
+### Claude 用户
 
 `bash` / `zsh`:
 
@@ -111,7 +111,7 @@ No clear over-engineering found in the reviewed scope.
 
 ## 仓库结构
 
-这个仓库里同时放了 Codex 和 Cloud 两边需要的入口文件：
+这个仓库里同时放了 Codex 和 Claude 两边需要的入口文件：
 
 ```text
 .
